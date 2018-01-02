@@ -63,7 +63,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About this page</h2>
+            <h2>About B&G</h2>
             <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
             <ul>
               <li>Clickable nav links that smooth scroll to page sections</li>
@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Services we offer</h2>
+            <h2>Books & Senior Portraits</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
           </div>
         </div>
@@ -91,7 +91,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
+            <h2>Sample Pages</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
           </div>
         </div>
@@ -104,7 +104,7 @@
           <div class="col-lg-8 mx-auto">
             <h2>Events Calendar</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-            <iframe src="https://calendar.google.com/calendar/embed?showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bgyearbookevents%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="900" height="500" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bgyearbookevents%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
@@ -114,8 +114,102 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <h2>Frequently Asked Questions</h2>
+              
+            <!-- Collapsible Q&A /!-->
+            <script>
+                document.addEventListener("DOMContentLoaded", function(event) { 
+                    var acc = document.getElementsByClassName("accordion");
+                    var panel = document.getElementsByClassName('panel');
+                    
+                    for (var i = 0; i < acc.length; i++) {
+                        acc[i].onclick = function() {
+                            var setClasses = !this.classList.contains('active');
+                            setClass(acc, 'active', 'remove');
+                            setClass(panel, 'show', 'remove');
+
+                            if (setClasses) {
+                                this.classList.toggle("active");
+                                this.nextElementSibling.classList.toggle("show");
+                            }
+                        }
+                    }
+
+                    function setClass(els, className, fnName) {
+                        for (var i = 0; i < els.length; i++) {
+                            els[i].classList[fnName](className);
+                        }
+                    }
+                });
+                
+            </script>
+            
+            <p class="accordion">What is a Senior Portrait? How do I take one?</p>
+              <div class="panel">
+                  Graduating seniors at Cal take their senior portraits for inclusion in the B&G Yearbook. Only seniors who take their portraits will be included in the yearbook.
+                  Sitting fees start at $5. Packages for purchasing portraits are sold by our photography company, Lauren Studios.
+                  <br>
+                  <br>If you are graduating in December 2017, May 208, or Summer 2018, sign-up to take your senior portraits today!
+                  All students who have senior standing should have received an email from Lauren Studios that includes a personal client-ID. Use this client-ID to make an appointment <href="www.laurenstudios.photos/">online!</href>
+              </div>
+            
+            <p class="accordion">I took my senior portraits, now what?</p>
+              <div class="panel">
+                  You will receive an email from Lauren Studios in 2-3 weeks once your proofs are available to view online. There, you can select your “yearbook photo”. Physical proofs will also be mailed to you in 3-4 weeks. If you are interested in purchasing photo packages, you may do so through Lauren Studios.
+                  <br>
+                  <br>Meanwhile, you can purchase the 2017 B&G Yearbook!
+              </div>
+
+            <p class="accordion">What are the senior portrait sitting options?</p>
+              <div class="panel">
+                  5 poses | $5 | 5 poses for yearbook photo
+                  <br>10 poses | $15 | 5 poses for yearbook photo, 5 additional poses: cap + gown or casual outfits
+                  <br>15 poses | $25 | 5 poses for yearbook photo, 5 cap + gown, 5 casual outfits
+              </div>
+
+            <p class="accordion">How can I purchase older yearbooks?</p>
+              <div class="panel">
+                  Please <href="#contact">contact us</href> with your order request and we will check our archives to see if we have copies of the yearbook you’ve selected.
+              </div>
+
+            <p class="accordion">When will I receive my yearbook?</p>
+              <div class="panel">
+                  The Blue & Gold Yearbook is a Fall release book, which means it is printed and published over the summer for release in late September/early October.
+                  <br>
+                  <br>If you opted to pick up your yearbook, you will receive an email from when it is ready for pick up on campus.
+                  <br>If you opted to have the book shipped to you, you will receive an email from us once your book has been shipped.
+              </div>
+            
+            <p class="accordion">I ordered a yearbook and it was never sent to me!</p>
+              <div class="panel">
+                  Our default option is for books to be picked up on campus; unless you paid an additional shipping and handling charge, then you should receive an e-mail when the book is available for pickup. If you would like to inquire about getting your yearbook delivered to you, please <href="#contact">contact us</href>.
+              </div>
+            
+            <p class="accordion">I am not satisfied with my senior portrait. Can I retake it?</p>
+              <div class="panel">
+                  <br>Yes, of course! Retakes are free for all Seniors.
+              </div>
+            
+            <p class="accordion">How can I purchase my senior portrait photos?</p>
+              <div class="panel">
+                  All Senior Portrait purchases and transactions go through our partner, <href="www.laurenstudios.photos">Lauren Studios</href>.
+                  <br>Please contact Lauren Studios for questions regarding senior portrait appointments, proofs, and purchases.
+                  <br>
+                  <br>website | <href="http://www.laurenstudios.photos">www.laurenstudios.photos</href>
+                  <br>email | info@laurenstudios.com
+                  <br>call | (951) 272-8600
+              </div>
+            
+            <p class="accordion">How can I get involved in Blue & Gold Yearbook?</p>
+              <div class="panel">
+                  We recruit every semester for new talents for our journalism, photography, design, and business teams. Click <href="#about">here</href> for more details.
+              </div>
+              
+            <p class="accordion">My question isn't listed here!</p>
+              <div class="panel">
+                  Please <href="#contact">contact us</href> with your inquiry.
+              </div>
+              
           </div>
         </div>
       </div>
